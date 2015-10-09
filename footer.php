@@ -12,9 +12,9 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'Luna' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'Luna' ), 'WordPress' ); ?></a>
+			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'luna' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'luna' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'Luna' ), 'Luna', '<a href="https://wordpress.com/themes/" rel="designer">Aztli</a>' ); ?>
+			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'luna' ), 'luna', '<a href="https://wordpress.com/themes/" rel="designer">Aztli</a>' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
