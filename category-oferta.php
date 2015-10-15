@@ -13,25 +13,20 @@
 </div>
 
 <div class="container">
+	<div class="row">
+		<div class="col-sm-12">
+			<div class="enigma_heading_title">
+				<h3>Cursos</h3>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container">
 <div class="row enigma_blog_wrapper">
-	<div class="col-md-12">
+	<div class="col-md-8">
 		<?php query_posts('cat=5&order=Asc'); ?>
-		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-
-		 <article class="container__item">
-		 <header>
-				 <h4><a href="<?php the_permalink(); ?>"> <?php the_title(); ?></a></h4>
-		 </header>
-		 <figure>
-				 <?php the_post_thumbnail('large'); ?>
-
-		 </figure>
-		 <?php the_excerpt(); ?>
-		 <footer>
-				 <strong><?php the_author(); ?></strong> - <small><?php the_date(); ?></small>
-		 </footer>
-
-		</article>
+		<?php if ( have_posts() ) :
+			while ( have_posts() ) : the_post(); get_template_part('post','content'); ?>
 		 <?php endwhile; ?>
 		 <!-- post navigation -->
 		 <?php else: ?>
