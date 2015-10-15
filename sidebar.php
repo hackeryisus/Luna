@@ -1,33 +1,12 @@
-<?php
-/**
- * The sidebar containing the main widget area.
- *
- * @package Luna
- */
-
-if ( ! is_active_sidebar( 'sidebar-1' ) && ! is_active_sidebar( 'sidebar-2' ) && ! is_active_sidebar( 'sidebar-3' ) ) {
-	return;
-}
-?>
-
-<div id="secondary" class="footer-widget-area" role="complementary">
-	<div class="widget-wrapper">
-		<?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
-		<div id="widget-area-1" class="widget-area">
-			<?php dynamic_sidebar( 'sidebar-1' ); ?>
-		</div><!-- #widget-area-1 -->
-		<?php endif; ?>
-
-		<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
-		<div id="widget-area-2" class="widget-area">
-			<?php dynamic_sidebar( 'sidebar-2' ); ?>
-		</div><!-- #widget-area-2 -->
-		<?php endif; ?>
-
-		<?php if ( is_active_sidebar( 'sidebar-3' ) ) : ?>
-		<div id="widget-area-3" class="widget-area">
-			<?php dynamic_sidebar( 'sidebar-3' ); ?>
-		</div><!-- #widget-area-3 -->
-		<?php endif; ?>
-	</div><!-- .widget-wrapper -->
-</div><!-- #secondary -->
+<div class="col-md-4 enigma-sidebar">
+	<?php if ( is_active_sidebar( 'sidebar-primary' ) )
+	{ dynamic_sidebar( 'sidebar-primary' );	}
+	else  { 
+	$args = array(
+	'before_widget' => '<div class="enigma_sidebar_widget">',
+	'after_widget'  => '</div>',
+	'before_title'  => '<div class="enigma_sidebar_widget_title"><h2>',
+	'after_title'   => '</h2></div>' );
+	the_widget('WP_Widget_Archives', null, $args);
+	} ?>
+</div>

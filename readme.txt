@@ -1,172 +1,239 @@
-=== Argent ===
+****NOTE****
+ALL PRE-FIX used in the Enigma is used the PRE-FIXED for all theme by the Weblizar.
+Consider weblizar PRE-Fix for function-name and as a slug of the Theme Enigma.
 
-Contributors: automattic
-Tags: black, gray, white, one-column, custom-background, custom-header, custom-menu, rtl-language-support, translation-ready, dark, featured-images, responsive-layout, threaded-comments
+Enigma
 
-Requires at least: 4.0
-Tested up to: 4.2
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-
-Argent Theme, Copyright 2015 Automattic
-Argent is distributed under the terms of the GNU GPL
-
-== Description ==
-
-Argent is a clean and modern portfolio theme, geared towards creative professionals like designers, artists, and photographers. With its simple homepage template featuring portfolio projects, Argent aims to draw viewers right at what matters most: your wonderful work.
-
-== Installation ==
-
-1. In your admin panel, go to Appearance > Themes and click the Add New button.
-2. Click Upload and Choose File, then select the theme's .zip file. Click Install Now.
-3. Click Activate to use your new theme right away.
-
-== Frequently Asked Questions ==
-
-= How to setup the front page like the demo site? =
-
-The demo site URL: http://argentdemo.wordpress.com/?demo
-
-When you first activate Argent, your homepage will display posts in a traditional blog format. If you'd like to use the Front Page Template instead, follow these steps:
-
-1. Create or edit a page, and then assign it the Front Page Template from the Page Attributes module.
-2. Go to Settings > Reading and set "Front page displays" to "A static page".
-3. Select the page you just assigned the Front Page template to as "Front page" and then choose another page as "Posts page" to serve your blog posts.
-
-Now that you have set your home page, you can start customizing by navigating to Customize → Theme Options.
-
-The Front Page Template consists of two sections: Static Page and Portfolio.
-
-Full Front Page setup instructions can be found at https://theme.wordpress.com/themes/argent/
-
-= How to set up Portfolio? =
-
-Argent takes advantage of the Jetpack's Portfolio feature (http://jetpack.me/support/custom-content-types/), offering unique layouts and organization for your portfolio projects. To add a project, go to Portfolio → Add New in your WP Admin dashboard.
-
-# Projects #
-
-You can include a full-width image carousel in your projects. Argent will take the first gallery in your project and turn it into a carousel automatically. To set it up, follow these steps:
-
-1. Create a new Portfolio project.
-2. Insert an image gallery into project content. The placement of gallery inside project content does not matter, the gallery will always be displayed directly below project title.
-3. Continue adding content to your project – you can add more images, pull quotes, videos etc.
-4. Be sure to add featured image to your projects. Although it won’t be displayed in single project view, it’s used on the portfolio archives page (see below).
-5. Save or publish your project.
-
-# Portfolio archives page #
-
-All projects are displayed on the portfolio archive page in grid layout. This page can be added to a Custom Menu using the Links Panel.
-
-The portfolio archive page can be found at http://mygroovysite.wordpress.com/portfolio/ — just replace http://mygroovysite.wordpress.com/ with the URL of your website.
+CHANGE-LOG:
+@Version: 2.1 [08/10/2015]
+1. Parallax Layout in *Premium Theme added..
 
 
-== Quick Specs (all measurements in pixels) ==
+@Version: 2.0 [24/09/2015]
+1. Menus Fixes.
 
-	1. The main column width is 660, except in single posts, where it’s 490.
-	2. A widget in the Footer Widget Area is 300.
-	3. Featured Images for posts should be at least 660 wide.
+@Version: 1.9.8[22/09/2015]
+1. MENU HOVER ISSUE FIXED.
+@Version: 1.9.7[03/09/2015]
+1. Minor bradcrumb Fix.
+2. Screen-reader Class Added. 
 
-== Credits ==
+@Version: 1.9.6[16/07/2015]
+1. Minor home page Issue Fixed.
 
-* slick.js script (https://github.com/kenwheeler/slick) by Ken Wheeler distributed under the MIT license.
-* Screenshot image by Unsplash (http://pixabay.com/en/macbook-notebook-apple-inc-336651/), licensed under CC0 Public Domain (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+@Version: 1.9.5[11/07/2015]
+1. Some Customizr Issue Fixed.
+2. Minor Plugin Conflict-ion Solved.
 
-== Changelog ==
+@Version: 1.9.4[06/07/2015]
+1. Minor Issue Fixed.
 
-= 2 October 2015 =
-* Enqueue Genericons and add them to fix a self-hosted bug with the Menu icon.
+@Version: 1.9.3[30/06/2015]
+1.Theme option panel are customize ready.
 
-= 21 September 2015 =
-* Ensure that site title still looks good when spanning two lines.
+@Version: 1.9.2[08/06/2015]
+1. Footer Call-Out Issue Fixed.
+2. Search Box Issue Fixed.
 
-= 9 September 2015 =
-* Add the site-title border directly to the link so it's not displayed in the customizer when site-title is hidden.
+@Version: 1.9.1[29/05/2015]
+1. WPML Competible
 
-= 10 August 2015 =
-* Make sure to target only size-full images when adding the extra large image class.
+@Version: 1.9[25/05/2015]
+1. Russian mo file.
+2. Slider - Text -Button viewable in Mob.
 
-= 31 July 2015 =
-* Remove `.screen-reader-text:hover` and `.screen-reader-text:active` style rules.
+@Version: 1.8.9[23/04/2015]
+1. Mobile Slider Text Fixed.
 
-= 23 July 2015 =
-* Udating readme.txt with recent changes to keep up to date with .org version;
-* Adding missing styling to <b> and <strong> elements; Fixes #3279;
+@Version: 1.8.8[/03/2015]
+1.Minor Translation added.
 
-= 20 July 2015 =
-* Refactor array for single content portfolio galleries to avoid errors for older versions of PHP. Props to @mendezcode for the fix.
+@Version: 1.8.6[23/03/2015]
+1. Minor Fixes in Header and Footer
 
-= 14 July 2015 =
-* Always use https when loading Google Fonts. See #3221;
+@Version: 1.8.5[17/03/2015]
+1. Checked() implimented.
+2. Home-Blog Show / Hide settings added in Theme-Options.
 
-= 13 July 2015 =
-* Adding credit and license info for Slick script to readme.txt, as requested by .org reviewer; bumping up the version number;
+@Version: 1.8.4[25/02/2015]
+1. Menu Ipad/Mobile Issue Fixed.
 
-= 30 June 2015 =
-* Fixed minor textdomain issues; Added missing escaping; Bumped up version number to remain in sync with .org version;
 
-= 19 June 2015 =
-* Adding .pot file;
+@Version: 1.8.3[12/02/2015]
+1. RTL Support.
+2. Breadcrumb Fix.
+3. HTML W3C Validated.
 
-= 17 June 2015 =
-* Adding escaping for commment author output;
-* Fixing a bug where projects loaded with IS where breaking the grid;
-* Setting 'wrapper' param for Jetapck to false, to help with jumpy scrolling;
 
-= 16 June 2015 =
-* Adding theme description to style.css and readme.txt;
-* Further tweaks to editor-style.css to match recent changes in style.css; Increasing navigation width to match content width in portfolio;
-* Link color adjustemnts in editor-style.css (to match recent changes in style.css); Adjustments to images - removing border below linked images and adding margin bottom;
-* Adjustemtns around overhanging images;
+@Version: 1.8.2[05/02/2015]
+1. Custom Static Front-Page on Page.
 
-= 15 June 2015 =
-* Tying loose ends - removing overzealous esaping in comment form; Adding support for overhanging images and blocquotes to portfolio projects;
-* Changing links color for better contrast; Minor tweaks to facilitate color annotations;
 
-= 5 June 2015 =
-* Adding missing escaping, in line with recent updates to _s; Changed Jetpack url to https;
-* Adding post title to Read more link;
-* Fixing visual issues: uneven spacing around last menu item, hover style for links in footer; , no comments message styling, edit button position in pingbacks and finally setting the height of inputs to match buttons;
-* More spacing/indentation fixes;
-* Minor spacing/indentation fixes;
-* Minor spacing fixes in the code;
-* Mixed uppercase/lowercase package names on @package declarations;
-* Removing old .pot file;
+@Version: 1.8[24/01/2015]
+1. Custom Static Front-Page.
 
-= 29 May 2015 =
-* CSS tweaks for color annotations;
 
-= 28 May 2015 =
-* Overdue font family change; Removing numeration from threaded comments;
-* Addiing support for editor style in functions.php; Adjusting spcing after various elements;
-* Adding edtor-style.css;
-* Updating theme screenshot;
-* Adding readme.txt file; Adding tags and updating version numver in style.css; Updating  to match recent changes in stylesheet;
-* Small tweaks to RTL styles;
+@Version: 1.7.2[21/01/2015]
+1. Unminified JS.
 
-= 27 May 2015 =
-* CSS adjustements to front page template for mobile devices;
-* Custom Header Image height adjustment;
-* Adding custom front page template and front page settings; Remove padding around footer widgets;
-* Update slider navigation - Add next/prev navigation on hover over right/left portion of the slider;
-* Adding .03em letter spacing to uppercase text;
 
-= 26 May 2015 =
-* Removing outline from buttons; increasing line-height for project titles;
-* Changed body font to Cabin and adjusted font-size; Added hover state styling; Chaged focus on form elements; Various minor CSS adjustments;
-* Add class to large images to outdent them visually; Update navigation links anchors;
+@Version: 1.7.1[16/01/2015]
+1. Title Repetition Removed.
+2. Unused JS file removed.
+3. Pagw with Left Sidebar added. 
 
-= 22 May 2015 =
-* Varius CSS tweaks to spacing;
-* Adding RTL styles;
-* Goodreads widget styling adjustments;
-* Added styling for calendar widget; Fixed site title color bug;
-* More adjustments for wpcom widgets;
-* Updated custom fonts function; Added sytles to various wpcom widgets;
-* Adding 'footer_widgets' argument to Jetpack setup to prevent infinite mode when footer widgets are present;
-* Added pagination to single post via the_content filter to move it above Jetapck sharing and related posts; Slightly modified page links markup to fine tune the styling;
-* Forgot to include wpcom.php in functions.php, fixing now;
-* Replaced single footer widget area with thre separate for finer control over widget display order;
-* Adding wpcom.php and style-wpcom.css files; Style adjustmetns to input fileds and widgets;
+@Version: 1.7 [05/01/15]
+1. Editor added in Theme-Options.
+2. Discount Coupon Removed.
+3. FA link updated.
+4. Portfolio Link Title fixed.  
 
-= 21 May 2015 =
-* Export from dev to pub;
+@Version: 1.6.1 [09/12/14]
+1.Minor Translated String
+
+@Version: 1.6 [04/12/14]
+1. Snow Effects in Theme-Options.
+2. Two More SOcial Icons.
+3. iPad Drop-Down Fixed
+
+@Version: 1.5.1 [19/11/14]
+1. Minor FIX in blog file
+2. Log image to add css for mobile view
+
+@Version: 1.5 [05/11/14]
+1. Minor FIX
+
+@Version: 1.4.3 [05/11/14]
+1. DATE Format Issue Fixed.
+
+
+@Version: 1.4.2 [13/10/14]
+1.)All Issue Raised By Reviewer Fixed.
+2.) iPAD menu Issue Fixed.
+
+@Version: 1.4 [13/10/14]
+1. Child theme ready.
+2. Social media link modify with #. ( Advise by gpriday )
+
+@Version: 1.4 [13/10/14]
+1. Menu Implementation for mobiles.
+
+@Version: 1.3 [11/10/14]
+1.	Top Menu Implementation.
+2.	Woo-commerce Ready.
+3.	Full-Width Page.
+4.	Telephone Icon Issue Fixed.
+5. 	Search URL issue Fixed.
+6.  Admin side Image Added.
+
+@Version: 1.2 [05/10/14]
+1. Sane Default Concept added.
+@Version: 1.1 [27/09/14]
+1) comment_function Issue fixed.
+2) White Space Issue Fixed.
+3) Portfolio Check box Enable.
+
+@Version: 1.0 [06/08/14]
+Rest all issue fixed.
+@Version 0.99 [03/08/14]
+->Issue raised after first review removed here.
+@Version 0.9.5
+released
+/////////////////////////*****************Copyrights Attribution********************////////////////////////////////////
+Enigma WordPress Theme, Copyright 2014 weblizar
+Enigma is distributed under the terms of the GNU GPL
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see .
+
+Enigma WordPress Theme bundles the following third-party resources:
+Snow-fall JS : http://www.schillmania.com/projects/snowstorm/license.txt
+Licensed under: BSD
+
+
+Bootstrap jQuery library, Copyright 2013  Twitter, Inc.
+Licensed under http://www.apache.org/licenses/LICENSE-2.0
+Source: https://github.com/twbs/bootstrap/archive/v3.0.2.zip
+
+jQuery carouFredSel |  v6.2.1 | (c) 2013    | 
+jQuery carouFredSel , Copyright 2013 Ivan Fred Heusschen , http://www.frebsite.nl
+Licensed under MIT license :http://opensource.org/licenses/MIT
+Source:https://github.com/gilbitron/carouFredSel
+
+Photobox jQuery |   v1.9 | 
+(c) 2013  Yair Even.,(http://dropthebit.com)
+Licensed under MIT license :https://jquery.org/license/
+
+
+jQuery Waypoints | v2.0.3 |
+Copyright (c) 2011-2013 Caleb Troughton
+Dual licensed under the MIT license and GPL license.
+https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt
+
+menu.js
+Just to make hover effects of the menu.
+
+Scroll JS | V 1.0 | weblizar 
+(c) 2014  | Licensed under the MIT license and GPL license.
+
+Enigma_Theme_Script | V 1.0 | weblizar 
+(c) 2014  | Licensed under the MIT license and GPL license.
+
+Theme-Footer-Script | V 1.0 | weblizar 
+(c) 2014  | Licensed under the MIT license and GPL license.
+/*****BUNDELED CSS***/
+Font Awesome CSS |  v4.3.0 | 
+Copyright 2015  Dave Gandy.,
+Licensed under MIT license :http://opensource.org/licenses/MIT
+Source:http://fortawesome.github.io/Font-Awesome/assets/font-awesome-4.3.0.zip
+
+Bootstrap CSS |  v3.1.1 | 
+Copyright 2011-2014 Twitter, Inc
+Licensed under the Apache License v2.0 http://www.apache.org/licenses/LICENSE-2.0
+Source:http://getbootstrap.com/getting-started#download
+
+Animations CSS |  v1.0 | 
+Copyright 2014 weblizar
+Licensed under GPL
+
+Animations CSS |  v1.0 | 
+Copyright 2014 weblizar
+Licensed under GPL
+
+Enigma Theme CSS |  v1.0 | 
+Copyright 2014 weblizar
+Licensed under GPL
+
+Photo Box CSS  |  v1.0 | 
+Copyright 2014 weblizar
+Licensed under GPL
+
+Theme Animate CSS  |  v1.0 | 
+Copyright 2014 weblizar
+Licensed under GPL
+
+Images Taken from :
+pixabay.com
+
+Image Slide 1: http://pixabay.com/en/new-york-city-brooklyn-bridge-night-336475/
+Image Slide 2:http://pixabay.com/en/tractor-field-landscape-campaign-396477/
+Image Slide 3:http://pixabay.com/en/nice-c%C3%B4te-d---azur-france-398051/
+
+=================Portfolio Images URL ====================
+http://pixabay.com/en/girl-portrait-outdoors-pretty-344335/
+http://pixabay.com/en/keyboard-apple-input-keys-hardware-338507/
+http://pixabay.com/en/lamborghini-sports-car-racing-car-188960/
+http://pixabay.com/en/skydive-parachute-parachuting-79548/
+==============================================================
+All Images have been used in the Enigma, Created by weblizar .Also they are GPL Licensed and free to use and free to redistribute further. 
+# --- EOF --- #

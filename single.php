@@ -1,32 +1,19 @@
-<?php
-/**
- * The template for displaying all single posts.
- *
- * @package Luna
- */
-
-get_header(); ?>
-
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
-
-		<?php while ( have_posts() ) : the_post(); ?>
-
-			<?php get_template_part( 'content', 'single' ); ?>
-
-			<?php
-				// If comments are open or we have at least one comment, load up the comment template
-				if ( comments_open() || get_comments_number() ) :
-					comments_template();
-				endif;
-			?>
-
-			<?php the_post_navigation(); ?>
-
-		<?php endwhile; // end of the loop. ?>
-
-		</main><!-- #main -->
-	</div><!-- #primary -->
-
-<?php get_sidebar(); ?>
+<?php get_header(); 
+get_template_part('breadcrums'); ?>
+<div class="container">	
+	<div class="row enigma_blog_wrapper">
+	<div class="col-md-8">	
+		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>		
+		<?php get_template_part('post','content'); 
+		get_template_part('author','intro');
+		endwhile; 
+		else : 
+		get_template_part('nocontent');
+		endif;
+		weblizar_navigation_posts();
+		comments_template( '', true ); ?>
+	</div>
+	<?php get_sidebar(); ?>	
+	</div> <!-- row div end here -->	
+</div><!-- container div end here -->
 <?php get_footer(); ?>

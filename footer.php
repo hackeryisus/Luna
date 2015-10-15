@@ -1,25 +1,30 @@
-<?php
-/**
- * The template for displaying the footer.
- *
- * Contains the closing of the #content div and all content after
- *
- * @package Luna
- */
-?>
-
-	</div><!-- #content -->
-
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'luna' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'luna' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'luna' ), 'luna', '<a href="https://wordpress.com/themes/" rel="designer">Aztli</a>' ); ?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
-
+<!-- enigma Callout Section -->
+<?php $wl_theme_options = weblizar_get_options(); ?>
+<!-- Footer Widget Secton -->
+<div class="enigma_footer_area">
+		<div class="container">
+			<div class="col-md-12">
+			<p class="enigma_footer_copyright_info wl_rtl" >
+			<?php if($wl_theme_options['footer_customizations']) { echo esc_attr($wl_theme_options['footer_customizations']); }
+			if($wl_theme_options['developed_by_text']) { echo "|" .esc_attr($wl_theme_options['developed_by_text']); } ?>
+			<a target="_blank" rel="nofollow" href="<?php if($wl_theme_options['developed_by_link']) { echo esc_url($wl_theme_options['developed_by_link']); } ?>"><?php if($wl_theme_options['developed_by_weblizar_text']) { echo esc_attr($wl_theme_options['developed_by_weblizar_text']); } ?></a></p>
+			<?php if($wl_theme_options['footer_section_social_media_enbled'] == '1') { ?>
+			<div class="enigma_footer_social_div">
+				<ul class="social">
+					   <li class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><a  href="<?php echo esc_url($wl_theme_options['fb_link']); ?>"><i class="fa fa-facebook"></i></a></li>
+				</ul>
+			</div>
+			<?php } ?>
+			</div>
+		</div>
+</div>
+<!-- /Footer Widget Secton -->
+</div>
+<a href="#" title="Go Top" class="enigma_scrollup" style="display: inline;"><i class="fa fa-chevron-up"></i></a>
+<?php if($wl_theme_options['custom_css']) ?>
+<style type="text/css">
+<?php { echo esc_attr($wl_theme_options['custom_css']); } ?>
+</style>
 <?php wp_footer(); ?>
-
 </body>
 </html>
