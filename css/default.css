@@ -3,76 +3,76 @@
 }
 /*  header contact info section ***/
 .header_section{
-	background-color:#FFC107;
+	background-color:#BA68C8;
 	color:#fff;
 }
 /** navbar menus ***/
 .navigation_menu{
 	background-color: #fff;
-	border-top:2px solid #FFC107;
+	border-top:2px solid #BA68C8;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus,
 .dropdown-menu .active a {
-	background-color: #FFC107;
+	background-color: #BA68C8;
 }
 .collapse ul.nav li.current-menu-parent .dropdown-toggle, .collapse ul.nav li.current-menu-item .dropdown-toggle,
 .navbar-default .navbar-collapse ul.nav li.current-menu-parent .dropdown-toggle,.navbar-default .navbar-collapse ul.nav li.current-menu-item .dropdown-toggle
 .collapse ul.nav li.current_page_ancestor .dropdown-toggle,.collapse ul.nav li.current_page_ancestor .dropdown-toggle,
 .navbar-default .navbar-collapse ul.nav li.current_page_ancestor .dropdown-toggle,.navbar-default .navbar-collapse ul.nav li.current_page_ancestor .dropdown-toggle
 {
-	background-color: #FFC107;
-	box-shadow: 3px 3px 0 rgba(201, 201, 201, 1);
+	background-color: #BA68C8;
+	box-shadow: 3px 3px 0 rgba(171, 110, 204, 0.9);
 	color: #fff !important;
 	border-radius:0px;
 }
-
+rgb(171, 110, 204)
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-	background-color: #FFC107;
+	background-color: #BA68C8;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-	background-color: #FFC107;
+	background-color: #BA68C8;
 }
 
 .dropdown-menu {
-	background-color: rgba(255, 208, 6, 0.9);
+	background-color: rgba(171, 110, 204, 0.8);
 }
 /** headings titles css ***/
 .enigma_heading_title h3 {
-	border-bottom: 4px solid #FFC107;
+	border-bottom: 4px solid #BA68C8;
 	color: #3b3b3b;
 }
 .enigma_heading_title2 h3 {
-	border-bottom: 2px solid #FFC107;
+	border-bottom: 2px solid #BA68C8;
 	color: #3b3b3b;
 }
 /** slider css ***/
 .carousel-list li {
-	background:rgba(255, 208, 6, 0.8);
+	background:rgba(171, 110, 204, 0.7);
 }
 
 /** service  section css ***/
 .enigma_service_iocn{
-	border: 4px solid #FFC107;
-	background-color:#FFC107;
+	border: 4px solid #BA68C8;
+	background-color:#BA68C8;
 	background-size: 100% 200%;
-	background-image: linear-gradient(to bottom, #FFC107 50%, #fff 50%);
+	background-image: linear-gradient(to bottom, #BA68C8 50%, #fff 50%);
 }
 .enigma_service_area:hover .enigma_service_iocn i {
-	color:#FFC107;
+	color:#BA68C8;
 }
 .enigma_service_area:hover .enigma_service_iocn{background-color:#ffffff;}
 .enigma_service_iocn_2 i{
 	background: #fff;
-	border: 4px solid #FFC107;
+	border: 4px solid #BA68C8;
 }
 .enigma_service_iocn_2 i{
-	color: #FFC107;
+	color: #BA68C8;
 	background-size: 100% 200%;
-	background-image: linear-gradient(to bottom, #fff 50%, #FFC107 50%);
+	background-image: linear-gradient(to bottom, #fff 50%, #BA68C8 50%);
  }
 
 
@@ -80,32 +80,32 @@
 ********************************************************************************/
 
 .enigma_home_portfolio_showcase .enigma_home_portfolio_showcase_icons a {
-	background-color: #FFC107;
-	border:2px solid #FFC107;
+	background-color: #BA68C8;
+	border:2px solid #BA68C8;
 	color:#fff;
 }
 .enigma_home_portfolio_showcase .enigma_home_portfolio_showcase_icons a:hover{
 	background-color: #ffffff;
-	border:2px solid #FFC107;
-	color:#FFC107;
+	border:2px solid #BA68C8;
+	color:#BA68C8;
 }
 .enigma_home_portfolio_caption {
 	border-left:1px solid #ccc;
-	border-bottom:4px solid #FFC107;
+	border-bottom:4px solid #BA68C8;
 	border-right:1px solid #ccc;
 }
 
 .enigma_home_portfolio_caption:hover{
-    background: #FFC107;
+    background: #BA68C8;
 }
 .enigma_home_portfolio_caption:hover  h3 a ,.enigma_home_portfolio_caption:hover  small{
    color: #ffffff;
 }
 .img-wrapper:hover .enigma_home_portfolio_caption{
- background: #FFC107;
- border-left:1px solid #FFC107;
-	border-bottom:4px solid #FFC107;
-	border-right:1px solid #FFC107;
+ background: #BA68C8;
+ border-left:1px solid #BA68C8;
+	border-bottom:4px solid #BA68C8;
+	border-right:1px solid #BA68C8;
 }
 .img-wrapper:hover .enigma_home_portfolio_caption  h3 a,.img-wrapper:hover .enigma_home_portfolio_caption  small{
  color: #ffffff;
@@ -114,13 +114,13 @@
 .enigma_proejct_button a {
 	background-color: #f8504b;
 	color: #FFFFFF;
-	border: 2px solid #FFC107;
+	border: 2px solid #BA68C8;
 	transition: all 0.4s ease 0s;
 }
 .enigma_proejct_button a:hover {
 	background-color: #ffffff;
-	color: #FFC107;
-	border: 2px solid #FFC107;
+	color: #BA68C8;
+	border: 2px solid #BA68C8;
 	text-decoration:none;
 
 }
@@ -128,10 +128,10 @@
 
 .enigma_carousel-prev, .enigma_carousel-next {
     background-color: #fff;
-	border: 2px solid #FFC107;
+	border: 2px solid #BA68C8;
 }
 .enigma_carousel-prev:hover, .enigma_carousel-next:hover {
-    background-color: #FFC107;
+    background-color: #BA68C8;
 	color:#fff;
 }
 .enigma_carousel-prev:hover i, .enigma_carousel-next:hover i{
@@ -139,16 +139,16 @@
 }
 .enigma_carousel-prev i,
 .enigma_carousel-next i {
-	color: #FFC107;
+	color: #BA68C8;
 }
 
 /*** project detail ***/
 .enigma_portfolio_detail_pagi li a {
 	color: #404040;
-	border:2px solid #FFC107;
+	border:2px solid #BA68C8;
 	text-align:center;
 	background-size: 100% 200%;
-    background-image: linear-gradient(to bottom, #FFC107 50%, #ffffff 50%);
+    background-image: linear-gradient(to bottom, #BA68C8 50%, #ffffff 50%);
    -webkit-transition: all ease 0.5s;
     -moz-transition: all ease 0.5s;
     transition: all ease 0.5s;
@@ -156,7 +156,7 @@
 }
 .enigma_portfolio_detail_pagi li a:hover {
 	color: #404040;
-	border:2px solid #FFC107;
+	border:2px solid #BA68C8;
 	background-position: 0 -100%;
 }
 
@@ -175,32 +175,32 @@
 .enigma-project-detail-sidebar .launch-enigma-project a {
 
 	color: #ffffff;
-	border: 2px solid #FFC107;
+	border: 2px solid #BA68C8;
 	background-size: 100% 200%;
-    background-image: linear-gradient(to bottom, #FFC107 50%, #ffffff 50%);
+    background-image: linear-gradient(to bottom, #BA68C8 50%, #ffffff 50%);
    -webkit-transition: all ease 0.5s;
     -moz-transition: all ease 0.5s;
     transition: all ease 0.5s;
 }
 .enigma-project-detail-sidebar .launch-enigma-project a:hover {
 	background-color: #ffffff;
-	color: #FFC107;
-	border: 2px solid #FFC107;
+	color: #BA68C8;
+	border: 2px solid #BA68C8;
 	background-position: 0 -100%;
 }
 
 /** gallery css **/
 
 .enigma_gallery_showcase .enigma_gallery_showcase_icons a {
-	background-color: #FFC107;
-	border:2px solid #FFC107;
+	background-color: #BA68C8;
+	border:2px solid #BA68C8;
 	color:#fff;
 }
 
 .enigma_gallery_showcase .enigma_gallery_showcase_icons a:hover{
 	background-color: #ffffff;
-	border:2px solid #FFC107;
-	color:#FFC107;
+	border:2px solid #BA68C8;
+	color:#BA68C8;
 }
 
 
@@ -210,42 +210,42 @@
 /** blog thumbnail css **/
 .enigma_blog_thumb_wrapper{
 	background:#fff;
-	border-bottom: 5px solid #FFC107;
+	border-bottom: 5px solid #BA68C8;
 	box-shadow: 0 0 6px rgba(0,0,0,.7);
 
 }
 .enigma_blog_thumb_wrapper h2 a{
-	color:#FFC107;
+	color:#BA68C8;
 	transition: all 0.4s ease 0s;
 }
 
 .enigma_blog_thumb_wrapper h2:hover a{
-	color:#FFC107;
+	color:#BA68C8;
 
 }
 .enigma_blog_thumb_date li i{
-	color: #FFC107;
+	color: #BA68C8;
 }
 .enigma_tags a ,.enigma_cats a{
 	background-size: 100% 200%;
 	background-color:#edf0f2;
-    background-image: linear-gradient(to bottom, #edf0f2 50%, #FFC107 50%);
+    background-image: linear-gradient(to bottom, #edf0f2 50%, #BA68C8 50%);
  }
 
 .enigma_tags a:hover , .enigma_cats a:hover{
 	color:#fff;
 	background-position: 0 -100%;
-	background-color:#FFC107;
+	background-color:#BA68C8;
 }
 .enigma_tags a i ,.enigma_cats a i{
-	color:#FFC107;
+	color:#BA68C8;
 }
 .enigma_tags a:hover i ,.enigma_cats a:hover i{
 	color:#fff;
 }
 
 .enigma_blog_thumb_wrapper span a i{
-	color: #FFC107;
+	color: #BA68C8;
 }
 .enigma_blog_thumb_wrapper span a {
 	color:#555;
@@ -257,10 +257,10 @@
 }
 
 .enigma_blog_read_btn{
-	border: 2px solid #FFC107;
+	border: 2px solid #BA68C8;
 	background-size: 100% 200%;
-	background-color:#FFC107;
-    background-image: linear-gradient(to bottom, #FFC107 50%, #fff 50%);
+	background-color:#BA68C8;
+    background-image: linear-gradient(to bottom, #BA68C8 50%, #fff 50%);
    }
 .enigma_blog_read_btn i {
 	margin-right:5px;
@@ -268,12 +268,12 @@
 .enigma_blog_read_btn:hover{
 	background-position: 0 -100%;
 	background-color:#ffffff;
-	color: #FFC107;
+	color: #BA68C8;
 }
 .enigma_blog_read_btn a{color:#ffffff;}
 
 .enigma_blog_thumb_wrapper_showcase .enigma_blog_thumb_wrapper_showcase_icons a {
-	background-color: #FFC107;
+	background-color: #BA68C8;
 	color: #fff;
 	-webkit-transition: all .25s ease-in;
     -moz-transition: all .25s ease-in;
@@ -282,48 +282,48 @@
 }
 .enigma_blog_thumb_wrapper_showcase .enigma_blog_thumb_wrapper_showcase_icons a:hover{
 	background-color: #ffffff;
-	border: 2px solid #FFC107;
-	color: #FFC107;
+	border: 2px solid #BA68C8;
+	color: #BA68C8;
 }
 /********* Blog Full width css ********/
 .enigma_post_date {
-	background: #FFC107;
+	background: #BA68C8;
 	color: #ffffff;
 }
 .enigma_blog_comment:hover i, .enigma_blog_comment:hover h6{
-	color:#FFC107;
+	color:#BA68C8;
 }
 .enigma_fuul_blog_detail_padding h2 a ,.enigma_fuul_blog_detail_padding h2{
-	color:#FFC107;
+	color:#BA68C8;
 }
 .enigma_fuul_blog_detail_padding h2  a:hover{
-	color:#FFC107;
+	color:#BA68C8;
 }
 /*** blog sidebar css **/
 .enigma_recent_widget_post h3 a {
-	color:#FFC107;
+	color:#BA68C8;
 }
 .enigma_sidebar_widget {
-	border-left: 3px solid #FFC107;
-	border-right: 3px solid #FFC107;
-	border-bottom: 3px solid #FFC107;
+	border-left: 3px solid #BA68C8;
+	border-right: 3px solid #BA68C8;
+	border-bottom: 3px solid #BA68C8;
 	background-color:#ffffff;
 }
 .enigma_sidebar_widget_title{
-	background:#FFC107;
+	background:#BA68C8;
 }
 .enigma_sidebar_link p a:hover  , .enigma_sidebar_widget ul li a:hover {
-	color: #FFC107;
+	color: #BA68C8;
 }
 
 .enigma_widget_tags a , .tagcloud a {
 	background-size: 100% 200%;
 	background-color:#edf0f2;
-    background-image: linear-gradient(to bottom, #edf0f2 50%, #FFC107 50%);
+    background-image: linear-gradient(to bottom, #edf0f2 50%, #BA68C8 50%);
  }
 .enigma_widget_tags a:hover , .tagcloud a:hover {
-	border: 1px solid #FFC107;
-	background-color:#FFC107;
+	border: 1px solid #BA68C8;
+	background-color:#BA68C8;
 	background-position: 0 -100%;
 
 	color: #ffffff;
@@ -331,39 +331,39 @@
 
 /** blog detail **/
 .enigma_author_detail_wrapper{
-	background: #FFC107;
+	background: #BA68C8;
 	padding:15px;
 	margin-bottom:40px;
 
 }
 .enigma_author_detail_wrapper{
-	border-left:2px solid #FFC107;
+	border-left:2px solid #BA68C8;
 }
 /** blog  form input css **/
 .reply a {
-	color: #FFC107;
+	color: #BA68C8;
 }
 .enigma_con_input_control:focus, .enigma_con_textarea_control:focus,
 .enigma_contact_input_control:focus, .enigma_contact_textarea_control:focus {
-  border-color: #FFC107;
-  -webkit-box-shadow: inset 0 0px 0px #FFC107, 0 0 5px #FFC107;
-          box-shadow: inset 0 0px 0px #FFC107, 0 0 5px #FFC107;
+  border-color: #BA68C8;
+  -webkit-box-shadow: inset 0 0px 0px #BA68C8, 0 0 5px #BA68C8;
+          box-shadow: inset 0 0px 0px #BA68C8, 0 0 5px #BA68C8;
 }
 .enigma_send_button , #enigma_send_button{
-	border-color: #FFC107;
+	border-color: #BA68C8;
 	color: #6a6a6a;
 	background-color:#ffffff;
 	background-size: 100% 200%;
-    background-image: linear-gradient(to bottom, #fff 50%, #FFC107 50%);
+    background-image: linear-gradient(to bottom, #fff 50%, #BA68C8 50%);
    -webkit-transition: all ease 0.5s;
     -moz-transition: all ease 0.5s;
     transition: all ease 0.5s;
 }
 .enigma_send_button:hover ,#enigma_send_button:hover{
 	background-position: 0 -100%;
-    border: 2px solid #FFC107;
+    border: 2px solid #BA68C8;
 	color: #ffffff;
-	background-color:#FFC107;
+	background-color:#BA68C8;
 }
 
 
@@ -375,7 +375,7 @@
 	border: 1px solid #dbdbdb !important;
 	background-color: #ffffff;
 	background-size: 100% 200%;
-	background-image: linear-gradient(to bottom, #fff 50%, #FFC107 50%);
+	background-image: linear-gradient(to bottom, #fff 50%, #BA68C8 50%);
    -webkit-transition: all ease 0.5s;
     -moz-transition: all ease 0.5s;
     transition: all ease 0.5s;
@@ -389,31 +389,31 @@
 /****** Testimonial css *******************************************
 ****************************************************************/
 .enigma_testimonial_area i{
-	color:#FFC107;
+	color:#BA68C8;
 }
 .enigma_testimonial_area img{
-	border: 10px solid #FFC107;
+	border: 10px solid #BA68C8;
 }
 .pager a{
 	background: #fff;
-	border: 2px solid #FFC107;
+	border: 2px solid #BA68C8;
 }
 .pager a.selected{
-	background: #FFC107;
-	border: 2px solid #FFC107;
+	background: #BA68C8;
+	border: 2px solid #BA68C8;
 }
 /**** Client Css *************************************************
 ****************************************************************/
 .enigma_client_wrapper:hover {
-	border: 4px solid #FFC107;
+	border: 4px solid #BA68C8;
 
 }
 .enigma_client_prev, .enigma_client_next {
     background-color: #fff;
-	border: 2px solid #FFC107;
+	border: 2px solid #BA68C8;
 }
 .enigma_client_prev:hover, .enigma_client_next:hover {
-    background-color: #FFC107;
+    background-color: #BA68C8;
 	color:#fff;
 }
 .enigma_client_prev:hover i, .enigma_client_next:hover i{
@@ -422,31 +422,31 @@
 
 .enigma_carousel-prev i,
 .enigma_carousel-next i {
-	color: #FFC107;
+	color: #BA68C8;
 }
 /**** About us page Css *************************************************
 ****************************************************************/
 .enigma_team_showcase .enigma_team_showcase_icons a {
-	background-color: #FFC107;
-	border:2px solid #FFC107;
+	background-color: #BA68C8;
+	border:2px solid #BA68C8;
 	color:#fff;
 }
 
 .enigma_team_showcase .enigma_team_showcase_icons a:hover{
 	background-color: #ffffff;
-	border:2px solid #FFC107;
-	color:#FFC107;
+	border:2px solid #BA68C8;
+	color:#BA68C8;
 }
 
 .enigma_team_caption:hover{
-    background: #FFC107;
+    background: #BA68C8;
 }
 .enigma_team_caption:hover  h3 a ,.enigma_team_caption:hover  small{
    color: #ffffff;
 }
 
 .enigma_team_wrapper:hover .enigma_team_caption{
- background: #FFC107;
+ background: #BA68C8;
 }
 .enigma_team_wrapper:hover .enigma_team_caption  h3 ,.enigma_team_wrapper:hover .enigma_team_caption  small{
  color: #ffffff;
@@ -454,79 +454,79 @@
 /***** Call Out Section *****************************************************************
 ***************************************************************************************/
 .enigma_callout_area {
-	background-color: #FFC107;
+	background-color: #BA68C8;
 
 }
 /***** Footer Area Css *****************************************************************
 ***************************************************************************************/
 .enigma_footer_area{
-	background: #FFC107;
+	background: #BA68C8;
 	border-top: 0px solid #6B6B6B;
 }
 /***** Contact Info Css *****************************************************************
 ***************************************************************************************/
 .enigma_contact_info li .desc {
-	color: #FFC107;
+	color: #BA68C8;
 }
 /***** Shortcode  Css *****************************************************************
 ***************************************************************************************/
 /*Dropcaps Styles*/
 .enigma_dropcape_square span {
-	background-color: #FFC107;
+	background-color: #BA68C8;
     color: #FFFFFF;
 }
 .enigma_dropcape_simple span {
-    color: #FFC107;
+    color: #BA68C8;
 }
 .enigma_dropcape_circle span {
-	background-color: #FFC107;
+	background-color: #BA68C8;
     color: #FFFFFF;
 }
 /*** breadcum style css **/
 .breadcrumb li a {
-color: #FFC107 !important;
+color: #BA68C8 !important;
 }
 /** progress bar or nav button css */
 .progress-bar {
-	background-color: #FFC107 !important;
+	background-color: #BA68C8 !important;
 }
 .btn-search{
-	background:#FFC107 !important;
+	background:#BA68C8 !important;
 }
 .nav-pills > li  > a{
-	border: 3px solid #FFC107 !important;
+	border: 3px solid #BA68C8 !important;
 	background-size: 100% 200%;
-    background-image: linear-gradient(to bottom, #fff 50%, #FFC107 50%) !important;
+    background-image: linear-gradient(to bottom, #fff 50%, #BA68C8 50%) !important;
 }
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
-	background-image: linear-gradient(to bottom, #FFC107 50%, #FFC107 50%) !important;
-	background-color:#FFC107;
+	background-image: linear-gradient(to bottom, #BA68C8 50%, #BA68C8 50%) !important;
+	background-color:#BA68C8;
 }
 .nav-stacked > li  > a
 {
-	border: 3px solid #FFC107 !important;
+	border: 3px solid #BA68C8 !important;
 	background-size: 100% 200%;
-    background-image: linear-gradient(to bottom, #fff 50%, #FFC107 50%) !important;
+    background-image: linear-gradient(to bottom, #fff 50%, #BA68C8 50%) !important;
  }
  .nav-stacked > li.active > a, .nav-stacked > li.active > a:hover, .nav-stacked > li.active > a:focus {
-	background-image: linear-gradient(to bottom, #FFC107 50%, #FFC107 50%) !important;
-	background-color:#FFC107;
+	background-image: linear-gradient(to bottom, #BA68C8 50%, #BA68C8 50%) !important;
+	background-color:#BA68C8;
 }
 
 
 .navbar-toggle {
-background-color: #FFC107 !important;
-border: 1px solid #FFC107 !important;
+background-color: #BA68C8 !important;
+border: 1px solid #BA68C8 !important;
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-background-color: #FFC107 !important;
+background-color: #BA68C8 !important;
 }
 .enigma_blockquote_section blockquote {
-border-left: 5px solid #FFC107 ;
+border-left: 5px solid #BA68C8 ;
 }
 #wp-calendar caption {
-background-color: #FFC107;
+background-color: #BA68C8;
 color: #ffffff;
 padding: 10px;
 }
@@ -558,10 +558,10 @@ vertical-align: top;
 text-align: center;
 }
 .enigma_footer_widget_column ul li a ,.enigma_footer_widget_column ul#recentcomments li {color: #f2f2f2;}
-.enigma_footer_widget_column ul li a:hover{color: #FFC107;}
+.enigma_footer_widget_column ul li a:hover{color: #BA68C8;}
 .enigma_callout_area a:hover{background-color:#393c40;}
 ul .social li .facebook a:hover ,ul .social li .twitter a:hover,ul .social li .linkedin a:hover ,ul .social li .youtube a:hover {background-color:#34495e;}
 .enigma_blog_pagi a:hover, .enigma_blog_pagi a.active {
-background-color: #FFC107;
+background-color: #BA68C8;
 color: white;
 }

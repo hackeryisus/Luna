@@ -26,7 +26,7 @@
 	<div class="col-md-8">
 		<?php query_posts('cat=5&order=Asc'); ?>
 		<?php if ( have_posts() ) :
-			while ( have_posts() ) : the_post(); get_template_part('post','content'); ?>
+			while ( have_posts() ) : the_post(); get_template_part('post','cursos'); ?>
 		 <?php endwhile; ?>
 		 <!-- post navigation -->
 		 <?php else: ?>
