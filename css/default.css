@@ -25,7 +25,7 @@
 	color: #fff !important;
 	border-radius:0px;
 }
-rgb(171, 110, 204)
+
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
@@ -565,3 +565,24 @@ ul .social li .facebook a:hover ,ul .social li .twitter a:hover,ul .social li .l
 background-color: #BA68C8;
 color: white;
 }
+.smooth_slider{
+  max-width:450px;
+  height:250px;
+  min-height:250px;
+  background-color:#ffffff;
+  border:10px solid #dddddd;}
+
+.smooth_slider .sldr_title{font-family:Arial,Helvetica,sans-serif, Arial, Helvetica, sans-serif;font-size:20px;font-weight:bold;font-style:normal;color:#000000;}
+.smooth_slider .smooth_slideri{max-width:450px;margin:0px 0px 0px 0px;}
+.smooth_slider .smooth_slider_thumbnail{
+  float: center ;
+  margin:0 10px 0 0px;
+  max-height:720px;
+  border:0px solid #000000;
+  width:1980px;}
+.smooth_slider .smooth_slideri h2{clear:none;line-height:17px;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:bold;font-style:normal;color:#000000;margin:0 0 5px 0;}
+.smooth_slider .smooth_slideri h2 a{color:#000000;font-size:14px;font-weight:bold;font-style:normal;}
+.smooth_slider .smooth_slideri span{font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;font-style:normal;color:#333333;}
+.smooth_slider .smooth_slideri p.more{color:#0092E4;font-family:Arial,Helvetica,sans-serif;font-size:12px;margin-left: 10px;}
+.smooth_slider .smooth_next{}
+.smooth_slider .smooth_prev{} .smooth_slider .smooth_slider_eshortcode{float:left;margin:0 10px 0 0px;height:720px;border:0px solid #000000;width:1980px;} .smooth_slider .smooth_more a{color:#0092E4;font-family:Arial,Helvetica,sans-serif;font-size:12px;margin-left: 10px;}

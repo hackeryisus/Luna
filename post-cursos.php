@@ -28,8 +28,8 @@
 		</div>
 		<?php endif; ?>
 		<div class="container">
-				<div class="row isotope" id="isotope-service-container">
-					<div class=" col-md-4 service">
+				<div class="row" >
+					<div class=" col-lg-4 service">
 					<h2><?php if(!is_single()) {?><a href="<?php the_permalink(); ?>"><?php } ?><?php the_title(); ?></a></h2>
 					<?php the_excerpt( __( 'Read More' , 'weblizar' ) );
 					$defaults = array(
