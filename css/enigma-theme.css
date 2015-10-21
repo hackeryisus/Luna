@@ -5,7 +5,7 @@ body {
 .row {
     margin-left: 0px;
     margin-right: 0px;
-} 
+}
 
 .container {
     padding-left: 0px ;
@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navigation_menu{
 	width:100%;
-	position: relative; 
+	position: relative;
 
 }
 
@@ -126,7 +126,7 @@ margin-right:7px;
 	text-transform: uppercase;
 	font-family: 'Arimo',Arial, Helvetica, sans-serif;
 }
- 
+
 .dropdown-menu > li > a {
   display: block;
   padding: 7px 32px 7px 10px;
@@ -140,7 +140,7 @@ margin-right:7px;
 -moz-transition: padding 400ms;
 transition: padding 400ms;
 font-family: 'Arimo',Arial, Helvetica, sans-serif;
-  
+
 }
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
@@ -285,7 +285,7 @@ color: #999;
     left:100%;
     margin-top:-6px;
     margin-left:-1px;
-  
+
 }
 .dropdown-submenu:hover > .dropdown-menu{
     display:block;
@@ -302,7 +302,7 @@ color: #999;
 	margin-top: 0px;
 	font-size: 16px;
 	margin-right: -15px;
-	
+
 }
 .dropdown-submenu .pull-left{
     float:none;
@@ -334,12 +334,14 @@ color: #999;
 	margin-bottom:70px;
 	background:#edf0f2;
 	opacity:1;
-	padding-top:8px;
-	padding-bottom:8px;
-	
+	padding: 10px 0;
+  text-align: center;
+  text-transform: uppercase;
+
 }
 .enigma_header_breadcrum_title h1{
 	color:#777777;
+  font-size: 4em;
 }
 .breadcrumb {
 	font-size: 17px;
@@ -400,7 +402,7 @@ float:left;
 
 .input-group{
 	margin-top:10px;
-	margin-bottom:30px;	
+	margin-bottom:30px;
 
 }
 .form-control {
@@ -454,7 +456,7 @@ float:left;
     -moz-transition: all ease 0.5s;
     transition: all ease 0.5s;
 	font-family: 'Open Sans', sans-serif;
-	
+
 }
 
 .nav-stacked > li  > a:hover{
@@ -479,7 +481,7 @@ background-position: 0 -100%;
 	border-radius:0px;
 	margin-right:0px;
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 600; 
+	font-weight: 600;
 }
 .nav-tabs li.active > a{
 	border: 1px solid #e8e8e8;
@@ -491,15 +493,15 @@ background-position: 0 -100%;
 	border: 1px solid #e8e8e8;
 	background: #fff;
 	color: #555;
-	
+
 }
 /** panels style **/
 .panel {
 	margin-bottom: 20px;
 	background-color: #ffffff;
 	border: 1px solid transparent;
-	border-radius: 4px; 
-	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05); 
+	border-radius: 4px;
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
 	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
 	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) 0 10px rgba(0, 0, 0, 0.175);
 	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) 0 10px rgba(0, 0, 0, 0.175);
@@ -583,7 +585,7 @@ background-position: 0 -100%;
 .input-group-btn {
 display: inherit;
 }
-#searchform  .btn { 
+#searchform  .btn {
 
 font-size: 18px;
 font-weight: normal;

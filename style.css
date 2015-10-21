@@ -54,12 +54,10 @@ line-height: 26px;
 .head-contact-info{
 	display: block;
 	text-align: right;
-	padding-top:5px;
-	padding-bottom:2px;
-	padding-left:0;
+	padding: 5% 0;
 }
 .head-contact-info li {
-	display: inline;
+	list-style-type: none;
 	margin-right:10px;
 	font-size:18px;
 
@@ -88,7 +86,10 @@ line-height: 26px;
 .logo p{
 	font-family: 'Open Sans', sans-serif;
 	margin-top:5px;
-	color: #fff;
+  padding-left: 10%;
+  font-size: 1.5em;
+	color: #ffffff;
+  background-color: rgba(111, 3, 143, 0.5);
 }
 .social{
 	display: block;

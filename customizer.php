@@ -1440,15 +1440,12 @@ class enigma_Customize_Misc_Control extends WP_Customize_Control {
     public function render_content() {
         switch ( $this->type ) {
             default:
-
             case 'heading':
                 echo '<span class="customize-control-title">' . esc_html( $this->label ) . '</span>';
                 break;
-
             case 'line' :
                 echo '<hr />';
                 break;
-
         }
     }
 }
@@ -1456,53 +1453,5 @@ endif;
 
 if ( class_exists( 'WP_Customize_Control' ) && ! class_exists( 'More_Enigma_Control' ) ) :
 class More_Enigma_Control extends WP_Customize_Control {
-
-	/**
-	* Render the content on the theme customizer page
-	*/
-	public function render_content() {
-		?>
-		<label style="overflow: hidden; zoom: 1;">
-			<div class="col-md-2 col-sm-6 upsell-btn">
-					<a style="margin-bottom:20px;margin-left:20px;" href="http://weblizar.com/themes/enigma-premium/" target="blank" class="btn btn-success btn"><?php _e('Upgrade to Enigma Premium','weblizar'); ?> </a>
-			</div>
-			<div class="col-md-4 col-sm-6">
-				<img class="enigma_img_responsive " src="<?php echo WL_TEMPLATE_DIR_URI .'/core/theme-options/images/Enig.png'?>">
-			</div>
-			<div class="col-md-3 col-sm-6">
-				<h3 style="margin-top:10px;margin-left: 20px;text-decoration:underline;color:#333;"><?php echo _e( 'Enigma Premium - Features','weblizar'); ?></h3>
-					<ul style="padding-top:20px">
-						<li class="upsell-enigma"> <div class="dashicons dashicons-yes"></div> <?php _e('Responsive Design','weblizar'); ?> </li>
-						<li class="upsell-enigma"> <div class="dashicons dashicons-yes"></div> <?php _e('Enigma Parallax Design Included','weblizar'); ?> </li>
-						<li class="upsell-enigma"> <div class="dashicons dashicons-yes"></div> <?php _e('More than 13 Templates','weblizar'); ?> </li>
-						<li class="upsell-enigma"> <div class="dashicons dashicons-yes"></div> <?php _e('8 Different Types of Blog Templates','weblizar'); ?> </li>
-						<li class="upsell-enigma"> <div class="dashicons dashicons-yes"></div> <?php _e('6 Types of Portfolio Templates','weblizar'); ?></li>
-						<li class="upsell-enigma"> <div class="dashicons dashicons-yes"></div> <?php _e('12 types Themes Colors Scheme','weblizar'); ?></li>
-						<li class="upsell-enigma"> <div class="dashicons dashicons-yes"></div> <?php _e('Patterns Background','weblizar'); ?>   </li>
-						<li class="upsell-enigma"> <div class="dashicons dashicons-yes"></div> <?php _e('WPML Compatible','weblizar'); ?>   </li>
-						<li class="upsell-enigma"> <div class="dashicons dashicons-yes"></div> <?php _e('Woo-commerce Compatible','weblizar'); ?>
-						<li class="upsell-enigma"> <div class="dashicons dashicons-yes"></div> <?php _e('Image Background','weblizar'); ?>  </li>
-						<li class="upsell-enigma"> <div class="dashicons dashicons-yes"></div> <?php _e('Image Background','weblizar'); ?>  </li>
-						<li class="upsell-enigma"> <div class="dashicons dashicons-yes"></div> <?php _e('Ultimate Portfolio layout with Isotope effect','weblizar'); ?> </li>
-						<li class="upsell-enigma"> <div class="dashicons dashicons-yes"></div> <?php _e('Rich Short codes','weblizar'); ?> </li>
-						<li class="upsell-enigma"> <div class="dashicons dashicons-yes"></div> <?php _e('Translation Ready','weblizar'); ?> </li>
-						<li class="upsell-enigma"> <div class="dashicons dashicons-yes"></div> <?php _e('Coming Soon Mode','weblizar'); ?>  </li>
-						<li class="upsell-enigma"> <div class="dashicons dashicons-yes"></div> <?php _e('Extreme Gallery Design Layout','weblizar'); ?>  </li>
-
-					</ul>
-			</div>
-			<div class="col-md-2 col-sm-6 upsell-btn">
-					<a style="margin-bottom:20px;margin-left:20px;" href="http://weblizar.com/themes/enigma-premium/" target="blank" class="btn btn-success btn"><?php _e('Upgrade to Enigma Premium','weblizar'); ?> </a>
-			</div>
-			<span class="customize-control-title"><?php _e( 'Enjoying Enigma?', 'weblizar' ); ?></span>
-			<p>
-				<?php
-					printf( __( 'If you Like our Products , Please do Rate us on %sWordPress.org%s?  We\'d really appreciate it!', 'weblizar' ), '<a target="" href="https://wordpress.org/support/view/theme-reviews/enigma?filter=5">', '</a>' );
-				?>
-			</p>
-		</label>
-		<?php
-	}
-}
-endif;
+}endif;
 ?>

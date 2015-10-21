@@ -7,7 +7,7 @@
 		<span class="date"><?php echo get_the_date(); ?></span>
 		<?php endif; ?>
 		</li>
-		<li class="enigma_post_author"><?php echo get_avatar(get_the_author_meta( 'ID' ),96); ?></li>
+		<!--<li class="enigma_post_author"><?php echo get_avatar(get_the_author_meta( 'ID' ),96); ?></li> -->
 		<li class="enigma_blog_comment"><i class="fa fa-comments-o"></i><h6><?php comments_popup_link( '0', '1', '%', '', '-'); ?></h6></li>
 	</ul>
 	<div class="post-content-wrap">

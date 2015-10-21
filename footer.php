@@ -12,6 +12,7 @@
 			<div class="enigma_footer_social_div">
 				<ul class="social">
 					   <li class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><a  href="<?php echo esc_url($wl_theme_options['fb_link']); ?>"><i class="fa fa-facebook"></i></a></li>
+						 <?php if($wl_theme_options['email_id'] !='') { ?><li><a href="mailto:<?php echo $wl_theme_options['email_id']; ?>"><i class="fa fa-envelope"></i></a></li><?php } ?>
 				</ul>
 			</div>
 			<?php } ?>
