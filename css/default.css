@@ -5,6 +5,8 @@
 .header_section{
 	background-color:#BA68C8;
 	background-image: url("../images/1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
 	color:#fff;
 }
 /** navbar menus ***/
@@ -594,10 +596,9 @@ color: white;
 	position: relative;
 	margin: 0 10px 50px 10px;
 	height: 150px;
-	width: 30%;
-	border-bottom: 6px solid #9e4eac;
-	border-radius: 5px;
-
+	box-shadow: 5px 5px 0 rgba(201, 201, 201, 1);
+	-webkit-box-shadow: 5px 5px 0 rgba(201, 201, 201, 1);
+	-moz-box-shadow: 5px 5px 0 rgba(201, 201, 201, 1);
 }
 
 .cursos a{
@@ -605,6 +606,6 @@ color: white;
 }
 
 .cursos p{
-	margin-bottom: 10px;
+	margin: 10% 5%;
 	color: #333333;
 }

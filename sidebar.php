@@ -1,7 +1,7 @@
 <div class="col-md-4 enigma-sidebar">
 	<?php if ( is_active_sidebar( 'sidebar-primary' ) )
 	{ dynamic_sidebar( 'sidebar-primary' );	}
-	else  { 
+	else  {
 	$args = array(
 	'before_widget' => '<div class="enigma_sidebar_widget">',
 	'after_widget'  => '</div>',

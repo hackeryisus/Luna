@@ -10,9 +10,11 @@
   		<?php query_posts('cat=6&order=Asc'); ?>
   		<?php if ( have_posts() ) :
   			while ( have_posts() ) : the_post(); ?>
-        <article class="col-sm-4 cursos">
-          <h3><?php if(!is_single()) {?><a href="<?php the_permalink(); ?>"><?php } ?><?php the_title(); ?></a></h3>
-          <p><?php the_excerpt(); ?></p>
+        <article class="col-sm-4">
+					<div class="cursos">
+						<h3><?php if(!is_single()) {?><a href="<?php the_permalink(); ?>"><?php } ?><?php the_title(); ?></a></h3>
+						<p><?php the_excerpt(); ?></p>
+					</div>
         </article>
          <!--get_template_part('post','cursos');-->
   		 <?php endwhile; ?>

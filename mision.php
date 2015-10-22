@@ -5,7 +5,7 @@
 				<h3>¿Quienes somos?</h3>
 				<div class="enigma_service_area appear-animation bounceIn appear-animation-visible">
 					<div class="enigma_service_detail media-body">
-						<p>hola como estas? me ves?</p>
+						<p>Somos una academia líder a nivel estatal y nacional en la formación de excelentes profesionistas de la belleza contando con los planes más actualizados</p>
 					</div>
 				</div>
 			</div>
